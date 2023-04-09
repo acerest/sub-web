@@ -1,5 +1,9 @@
 # 内容：AI
-# 数量：9条
+# 数量：13条
+DOMAIN,cdn.auth0.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,pay.openai.com
 DOMAIN-SUFFIX,chat.openai.com
