@@ -296,8 +296,17 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://subc.yijie.lu/sub?" }],
         remoteConfig: [
+          {
+            label: "ricklu",
+            options: [
+              {
+                label: "ricklu-default",
+                value: "https://raw.githubusercontent.com/acerest/sub-web/master/config/sub.ini"
+              }
+            ]
+          },
           {
             label: "universal",
             options: [
