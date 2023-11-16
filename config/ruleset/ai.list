@@ -1,5 +1,5 @@
 # 内容：AI
-# 数量：16条
+# 数量：17条
 DOMAIN,cdn.auth0.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,openaiapi-site.azureedge.net
@@ -16,3 +16,4 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
