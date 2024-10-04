@@ -1,3 +1,9 @@
+# For More Personal Settings
+1. Modified .env file for what I want
+2. Added Docker Hub push action in workflow 
+3. PLS REMIND PERSONAL ONLY
+
+
 # sub-web
 
 基于 vue-cli 与 [tindy2013/subconverter](https://github.com/tindy2013/subconverter) 后端实现的配置自动生成。

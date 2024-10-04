@@ -232,8 +232,24 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [
+          { value: "https://subc.yijie.lu/sub?" },
+          { value: "https://subc-meta.yijie.lu/sub?" }
+        ],
         remoteConfig: [
+          {
+            label: "ricklu",
+            options: [
+              {
+                label: "ricklu-default",
+                value: "https://raw.githubusercontent.com/acerest/sub-web/master/config/sub.ini"
+              },
+              {
+                label: "ricklu-default-meta",
+                value: "https://raw.githubusercontent.com/acerest/sub-web/master/config/sub-meta.ini"
+              }
+            ]
+          },
           {
             label: "universal",
             options: [
@@ -532,19 +548,6 @@ export default {
           this.loading = false;
         });
     },
-    notify() {
-      const h = this.$createElement;
-
-      this.$notify({
-        title: "隐私提示",
-        type: "warning",
-        message: h(
-          "i",
-          { style: "color: teal" },
-          "各种订阅链接（短链接服务除外）生成纯前端实现，无隐私问题。默认提供后端转换服务，隐私担忧者请自行搭建后端服务。"
-        )
-      });
-    },
     confirmUploadConfig() {
       if (this.uploadConfig === "") {
         this.$message.warning("远程配置不能为空");
@@ -635,6 +638,7 @@ export default {
           // Parse the URL parameters
           const params = new URLSearchParams(url.search);
 
+
           // Record parameters have been read
           const getParam = params.get.bind(params)
           const excludeParams = new Set()
@@ -642,7 +646,6 @@ export default {
             excludeParams.add(key)
             return getParam(key)
           }
-
           // Get the 'target' parameter
           const target = params.get("target");
 
@@ -680,7 +683,6 @@ export default {
             .filter(e => !excludeParams.has(e[0]))
             .map(e => ({ name: e[0], value: e[1] }))
           )
-
           // Hide the configuration dialog
           this.dialogLoadConfigVisible = false;
 
