@@ -1,5 +1,5 @@
 # 内容：DJI
-# 数量：9条
+# 数量：10条
 DOMAIN-SUFFIX,dji.com
 DOMAIN-SUFFIX,djicdn.com
 DOMAIN-SUFFIX,djiits.com
@@ -9,3 +9,4 @@ DOMAIN-SUFFIX,djiops.com
 DOMAIN-SUFFIX,djigate.com
 DOMAIN-SUFFIX,djipaas.com
 DOMAIN-SUFFIX,es310.com
+DOMAIN-SUFFIX,flytbb.com
