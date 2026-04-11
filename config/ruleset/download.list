@@ -1,5 +1,5 @@
 # 内容：Download
-# 数量：24条
+# 数量：25条
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,homebrew.sh
 DOMAIN-SUFFIX,formulae.brew.sh
@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,repo.anaconda.com
 DOMAIN-SUFFIX,files.pythonhosted.org
 DOMAIN-SUFFIX,files.rubygems.org
 DOMAIN-SUFFIX,static.crates.io
+DOMAIN-SUFFIX,storage.googleapis.com
