@@ -1,0 +1,26 @@
+# 内容：Download
+# 数量：24条
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,homebrew.sh
+DOMAIN-SUFFIX,formulae.brew.sh
+DOMAIN-SUFFIX,api.brew.sh
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,pkg-containers.githubusercontent.com
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+DOMAIN-SUFFIX,release-assets.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,download.savannah.gnu.org
+DOMAIN-SUFFIX,downloads.sourceforge.net
+DOMAIN-SUFFIX,download.gnome.org
+DOMAIN-SUFFIX,download.videolan.org
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,download.eclipse.org
+DOMAIN-SUFFIX,download.mozilla.org
+DOMAIN-SUFFIX,download.jetbrains.com
+DOMAIN-SUFFIX,dl.k8s.io
+DOMAIN-SUFFIX,get.helm.sh
+DOMAIN-SUFFIX,releases.hashicorp.com
+DOMAIN-SUFFIX,repo.anaconda.com
+DOMAIN-SUFFIX,files.pythonhosted.org
+DOMAIN-SUFFIX,files.rubygems.org
+DOMAIN-SUFFIX,static.crates.io
