@@ -1,18 +1,15 @@
 # 内容：AI
-# 数量：23条
+# 数量：32条
 DOMAIN,cdn.auth0.com
-DOMAIN,challenges.cloudflare.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,ai.google.dev
+DOMAIN,alkali.makersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,invoice.stripe.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
@@ -22,5 +19,17 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,suno.ai
-DOMAIN-SUFFIX,tcr9i.chat.openai.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN,aistudio.google.com
+DOMAIN,www.googleapis.com
+DOMAIN,tuning.googleapis.com
