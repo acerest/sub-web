@@ -26,3 +26,9 @@ DOMAIN-SUFFIX,files.rubygems.org
 DOMAIN-SUFFIX,static.crates.io
 DOMAIN-SUFFIX,storage.googleapis.com
 DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,releases.warp.dev
+DOMAIN-SUFFIX,downloads.cursor.com
+DOMAIN-SUFFIX,downloads.claude.ai
+DOMAIN-SUFFIX,downloads.1password.com
+DOMAIN-SUFFIX,dl.discordapp.net
+DOMAIN-SUFFIX,desktop-release.notion-static.com
